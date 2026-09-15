@@ -9,6 +9,7 @@ class AdminPage {
         cy.get('#username').type(credentials.username)
         cy.get('#password').type(credentials.password)
         cy.get('#doLogin').click()
+        cy.url().should('include', '/admin')
     }
 
     // Go to the Messages tab
