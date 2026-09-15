@@ -1,6 +1,3 @@
-// cypress/support/pages/adminPage.js
-// This file holds every action and check for the Admin panel.
-
 class AdminPage {
 
     visit() {
