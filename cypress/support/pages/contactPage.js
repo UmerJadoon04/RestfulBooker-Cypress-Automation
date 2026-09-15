@@ -1,6 +1,3 @@
-// cypress/support/pages/contactPage.js
-// This file holds every action and check for the Contact form.
-
 class ContactPage {
 
     visit() {
