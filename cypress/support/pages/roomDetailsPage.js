@@ -1,7 +1,3 @@
-// cypress/support/pages/roomDetailsPage.js
-// This file holds every action and check for a single room's details page
-// (the page you land on after clicking a room from the homepage).
-
 class RoomDetailsPage {
 
     // Check the room name, accessibility badge, guest limit, and hero image
