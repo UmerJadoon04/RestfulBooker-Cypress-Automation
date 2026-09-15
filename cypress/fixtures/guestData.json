@@ -1,0 +1,14 @@
+{
+  "validGuest": {
+    "firstname": "umer",
+    "lastname": "jaoon",
+    "email": "umerjadoon@gmail.com",
+    "phone": "619-555-0456"
+  },
+  "contactMessage": {
+    "email": "umerjadoon@gmail.com",
+    "phone": "619-555-0456",
+    "subject": "testing",
+    "description": "test this section to confirm everything works properly"
+  }
+}

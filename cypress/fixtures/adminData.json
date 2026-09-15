@@ -1,0 +1,14 @@
+{
+  "validAdmin": {
+    "username": "admin",
+    "password": "password"
+  },
+  "wrongPasswordAdmin": {
+    "username": "admin",
+    "password": "wrngpassword"
+  },
+  "nonExistentAdmin": {
+    "username": "notreal",
+    "password": "password"
+  }
+}

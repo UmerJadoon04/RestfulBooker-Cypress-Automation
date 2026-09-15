@@ -1,0 +1,7 @@
+{
+  "screenSizes": [
+    { "width": 1920, "height": 1080, "label": "Desktop" },
+    { "width": 768, "height": 1024, "label": "Tablet" },
+    { "width": 375, "height": 667, "label": "Mobile" }
+  ]
+}

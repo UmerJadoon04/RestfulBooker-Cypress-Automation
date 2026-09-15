@@ -1,0 +1,80 @@
+{
+  "roomTypes": ["Single", "Double", "Suite"],
+  "facilities": ["TV", "WiFi", "Radio", "Safe"],
+  "prices": ["£100 per night", "£150 per night", "£225 per night"],
+  "policies": [
+    { "text": "No smoking", "icon": "bi-x-circle" },
+    { "text": "No parties or events", "icon": "bi-x-circle" },
+    { "text": "Pets allowed (restrictions apply)", "icon": "bi-question-circle" }
+  ],
+  "similarRoomTypes": ["Double", "Suite"],
+  "similarRoomPrices": ["£150/night", "£225/night"],
+  "newRoom": {
+    "roomName": "104",
+    "type": "Double",
+    "accessible": "true",
+    "price": "150",
+    "updatedPrice": "170"
+  },
+  "apiValidRoom": {
+    "roomName": "999",
+    "type": "Single",
+    "accessible": true,
+    "roomPrice": 100,
+    "features": ["TV"]
+  },
+  "apiMissingRoomName": {
+    "type": "Single",
+    "accessible": true,
+    "roomPrice": 100,
+    "features": ["TV"]
+  },
+  "apiWrongPriceType": {
+    "roomName": "998",
+    "type": "Single",
+    "accessible": true,
+    "roomPrice": "abc",
+    "features": ["TV"]
+  },
+  "apiExtraField": {
+    "roomName": "997",
+    "type": "Single",
+    "accessible": true,
+    "roomPrice": 100,
+    "randomField": "test",
+    "features": ["TV"]
+  },
+  "apiCreateThenVerify": {
+    "roomName": "996",
+    "type": "Single",
+    "accessible": true,
+    "roomPrice": 100,
+    "features": ["TV"]
+  },
+  "apiNegativePrice": {
+    "roomName": "995",
+    "type": "Single",
+    "accessible": true,
+    "roomPrice": -50,
+    "features": ["TV"]
+  },
+  "apiLongRoomName": {
+    "roomName": "9999999999999999999999999999999999999999",
+    "type": "Single",
+    "accessible": true,
+    "roomPrice": 100,
+    "features": ["TV"]
+  },
+  "apiSqlInjectionRoom": {
+    "roomName": "'; DROP TABLE rooms;--",
+    "type": "Single",
+    "accessible": true,
+    "roomPrice": 100,
+    "features": ["TV"]
+  },
+  "apiUpdateNoAuth": {
+    "roomName": "TestRoom",
+    "type": "Single",
+    "roomPrice": 100
+  }
+}
