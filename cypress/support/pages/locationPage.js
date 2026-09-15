@@ -1,6 +1,3 @@
-// cypress/support/pages/locationPage.js
-// This file holds every action and check for the Location/Map section.
-
 class LocationPage {
 
     visit() {
