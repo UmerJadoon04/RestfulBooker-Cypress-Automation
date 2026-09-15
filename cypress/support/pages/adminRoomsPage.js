@@ -1,6 +1,3 @@
-// cypress/support/pages/adminRoomsPage.js
-// This file holds every action and check for managing rooms in the Admin panel.
-
 class AdminRoomsPage {
 
     // Fill in the new room form and create it
