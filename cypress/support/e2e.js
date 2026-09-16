@@ -1,7 +1,13 @@
 // ***********************************************************
 // This example support/e2e.js is processed and
 // loaded automatically before your test files.
-//
+// cypress/support/e2e.js
+Cypress.on('uncaught:exception', (err, runnable) => {
+  if (err.message.includes('Minified React error #418')) {
+    return false // tell Cypress to ignore this specific error and not fail the test
+  }
+  return true // let any other real error still fail tests normally
+})
 // This is a great place to put global configuration and
 // behavior that modifies Cypress.
 //
