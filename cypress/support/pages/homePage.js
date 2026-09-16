@@ -1,7 +1,3 @@
-// cypress/support/pages/homePage.js
-// This file holds every action and check for the Homepage.
-// The test file only calls these methods - it never touches raw selectors.
-
 class HomePage {
 
     // Go to the homepage

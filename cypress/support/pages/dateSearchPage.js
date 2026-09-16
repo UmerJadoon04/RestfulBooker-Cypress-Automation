@@ -1,6 +1,3 @@
-// cypress/support/pages/dateSearchPage.js
-// This file holds every action and check for searching rooms by check-in/check-out dates.
-
 class DateSearchPage {
 
     goToBookingSection() {

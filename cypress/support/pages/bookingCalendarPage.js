@@ -1,6 +1,3 @@
-// cypress/support/pages/bookingCalendarPage.js
-// This file holds actions and checks for a room's booking calendar view.
-
 class BookingCalendarPage {
 
     // Visit a specific room's reservation page with dates already applied

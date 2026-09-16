@@ -1,6 +1,3 @@
-// cypress/support/pages/adminPage.js
-// This file holds every action and check for the Admin panel.
-
 class AdminPage {
 
     visit() {
@@ -12,6 +9,7 @@ class AdminPage {
         cy.get('#username').type(credentials.username)
         cy.get('#password').type(credentials.password)
         cy.get('#doLogin').click()
+        cy.url().should('include', '/admin')
     }
 
     // Go to the Messages tab
